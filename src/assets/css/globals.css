@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&display=swap");
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bangla {
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  /* background-color: #f1f1f1; */
+  color: #e04f54;
+}
+
+.btn-primary {
+  background-color: #e04f54;
+  border-color: #e04f54;
+  padding: 7px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
