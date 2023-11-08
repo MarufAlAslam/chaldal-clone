@@ -31,3 +31,12 @@ input[type="radio"]:checked + label {
   color: white;
   border-radius: 5px;
 }
+
+
+/* hero */
+.hero{
+    background: url("../images/landingBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
