@@ -7,7 +7,7 @@ const MainLayout = () => {
   return (
     <>
       <Header />
-      <div className="flex justify-between items-center gap-3">
+      <div className="flex justify-between items-start gap-3">
         <div className="sidebar min-w-[220px]">Sidebar</div>
         <div className="main w-full">
           <Outlet />
